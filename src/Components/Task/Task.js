@@ -2,12 +2,6 @@ import "./Task.scss";
 
 const Task = (props) => {
   const { value, checked, onChangeCheckBox, onClickTrash } = props;
-  /*const [isChecked, setChecked] = useState(true);
-
-  const handleChangeCheckBox = (e) => {
-    const value = e.target.checked;
-    setChecked(value);
-  };*/
 
   return (
     <div className="task">
