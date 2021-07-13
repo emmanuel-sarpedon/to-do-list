@@ -1,0 +1,18 @@
+@import "../../color.scss";
+
+.task {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  span {
+    margin: 0 1rem;
+  }
+  i {
+    color: $main-color;
+  }
+
+  i:hover {
+    color: red;
+    cursor: pointer;
+  }
+}

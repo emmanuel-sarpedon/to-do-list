@@ -1,0 +1,44 @@
+@import "../../color.scss";
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+
+  > div {
+    display: flex;
+    align-items: center;
+  }
+
+  i {
+    color: $main-color;
+    margin-right: 25px;
+  }
+
+  span {
+    font-family: "Montserrat";
+    font-size: 0.9rem;
+    margin-left: 1rem;
+
+    i {
+      padding: 8px;
+      border-radius: 50px;
+      border: 1px solid lightslategrey;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    i:hover {
+      background-color: $main-color;
+      color: white;
+      padding: 8px;
+      border-radius: 50px;
+    }
+  }
+
+  > span:hover {
+    cursor: pointer;
+  }
+}
